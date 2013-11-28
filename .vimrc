@@ -28,6 +28,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'tpope/vim-rails'
+Bundle 'Valloric/YouCompleteMe'
 
 " Custom commands
 :command Joy2 cd /home/sergio/Dropbox/Projects/joyeria_2
