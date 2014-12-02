@@ -16,20 +16,20 @@ if version >= 500
   set nocompatible
   filetype off
 
-  set rtp+=~/.vim/bundle/vundle/
-  call vundle#rc()
+  " set rtp+=~/.vim/bundle/vundle/
+  " call vundle#rc()
 
   " let Vundle manage Vundle
-  Bundle 'gmarik/vundle'
+  " Bundle 'gmarik/vundle'
 
-  Bundle 'wincent/Command-T'
-  Bundle 'AndrewRadev/linediff.vim'
-  Bundle 'xsbeats/vim-blade'
-  Bundle 'kchmck/vim-coffee-script'
-  Bundle 'flazz/vim-colorschemes'
-  Bundle 'airblade/vim-gitgutter'
-  Bundle 'tpope/vim-rails'
-  Bundle 'Valloric/YouCompleteMe'
+  " Bundle 'wincent/Command-T'
+  " Bundle 'AndrewRadev/linediff.vim'
+  " Bundle 'xsbeats/vim-blade'
+  " Bundle 'kchmck/vim-coffee-script'
+  " Bundle 'flazz/vim-colorschemes'
+  " Bundle 'airblade/vim-gitgutter'
+  " Bundle 'tpope/vim-rails'
+  " Bundle 'Valloric/YouCompleteMe'
 
   " Custom commands
   :command Joy2 cd /home/sergio/Dropbox/Projects/joyeria_2
