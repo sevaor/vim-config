@@ -134,7 +134,7 @@ if version >= 500
   set background=dark
   let g:solarized_termcolors=256
   " colorscheme solarized
-  colorscheme beauty256
+  " colorscheme beauty256
 
   """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
   " STATUS LINE
