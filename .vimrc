@@ -77,7 +77,9 @@ if version >= 500
 	else
 		set backup
 		set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-		set undofile		" keep an undo file (undo changes after closing)
+		if has('persistent_undo')
+			set undofile		" keep an undo file (undo changes after closing)
+		endif
 	endif
 	set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 	" allow backspacing over everything in insert mode
